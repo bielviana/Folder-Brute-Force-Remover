@@ -3,7 +3,13 @@ from os import path as p
 from threading import Thread
 import time
 
+
+
 os.system('cls')
+os.system("title Folder Brute Force Remover")
+print('Coded by: Gabriel Viana')
+print('https://github.com/pySiriusDev?tab=repositories')
+time.sleep(3)
 
 
 
